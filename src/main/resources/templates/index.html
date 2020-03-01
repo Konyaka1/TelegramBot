@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Manage bot</title>
+    <script src="js/CityListener.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<header class="header">
+    header
+    <form action="/logout" method="get" target="_self">
+        <input type="submit" value="logout">
+    </form>
+</header>
+
+<body>
+
+<div class="container" id="container">
+
+</div>
+
+<div class="form-add" id="form-cont">
+    <form action="#" onsubmit="cityListener.addCity();return false" id="form">
+        <input type="text" name="name">
+        <textarea name="info"></textarea>
+        <input type="submit" value="go">
+    </form>
+</div>
+
+<script>
+    onload();
+</script>
+
+</body>
+
+<footer class="footer">
+    footer
+</footer>
+
+</html>
